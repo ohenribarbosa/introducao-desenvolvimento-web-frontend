@@ -38,20 +38,7 @@ Ex: <h1 class="titulo">Título</h1>
 
 <img> tag sem fechamento; contém apenas dois atributos próprios, o src e o alt. O "src" é obrigatório e guarda o caminha para a imagem que será exibida. O "alt" não é obrigatório mas é altamente recomendado para melhorar a acessibilidade, ele mostra a descrição da imagem para o usuário saber o que ela significa.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Listas servem para agrupar uma coleção de itens. Tipos de listas:
+<ul> Lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.
+<ol> Lista ordenada, nessa a ordem importa, portanto são apresentadas com números, algarismos romanos ou letras.
+<li> Este elemento é um item dentro de uma lista. Pode conter vários tipos de conteúdo, como parágrafos, imagens e até outras listas.
