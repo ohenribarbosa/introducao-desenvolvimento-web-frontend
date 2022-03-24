@@ -36,7 +36,7 @@ Ex: <h1 class="titulo">Título</h1>
 
 <a> significa anchor/âncora, representa um hyperlink, é ele que interliga vários conteúdos e páginas na web. O elemento 'a' tem vários atributos, dentre eles, o href e o target. O "href" representa o hyperlink para onde sua âncora aponta, pode ser uma página, um e-mail e até mesmo um telefone, os dois últimos precisam dos prefixos mailto: e tel:, respectivamente. O "target" vai servir para ajudar a abrir os links em outra aba do navegador usando o valor "_blank".
 
-
+<img> tag sem fechamento; contém apenas dois atributos próprios, o src e o alt. O "src" é obrigatório e guarda o caminha para a imagem que será exibida. O "alt" não é obrigatório mas é altamente recomendado para melhorar a acessibilidade, ele mostra a descrição da imagem para o usuário saber o que ela significa.
 
 
 
