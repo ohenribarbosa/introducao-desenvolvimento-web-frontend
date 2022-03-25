@@ -87,7 +87,11 @@ Web safe fonts: Essas fontes são chamadas assim pois são encontradas em quases
 
 >font-style: Usamos o font-style para tornar um texto itálico, na maioria das vezes será usado apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
 
+>font-weight: Altera o peso do texto. Nas fontes mais simples, o valor normal e o bold já resolvem.
 
+>text-transform: Alterna o texto entre maiúsculas e minúsculas. valores: uppercase, lowercase e capitalize (o capitalize coloca as primeiras letras de cada palavra em maiúsculas).
+
+>text-decoration: Usado para dar destaque em algum texto, pois ele coloca linhas. valores: underline, overline e linethrough.
 
 
 
