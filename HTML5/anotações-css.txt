@@ -1,0 +1,47 @@
+O que são seletores?
+
+São elementos HTML.
+Uma regra CSS é formada por um seletor, ou um grupo de seletores, seguidos por um par de chaves, e dentro das chaves temos uma declaração (ou mais de uma). Uma declaração é formada por uma propriedade e um valor.
+ex.: 
+a, p, h1 {
+	color: blue;
+	font-size: 14px;
+}
+
+#O seletor desse exemplo é um seletor de tipo, pois representa um elemento HTML.
+
+--> ID x Classe
+No CSS, uma classe é precedida por um "." e o id é precedido por um "#".
+Um ID só pode ser usado uma vez na página.
+
+<header id="header" class="header"></header>
+<header class="header"></header>
+
+.header { 
+	padding: 10px;
+}
+#header {
+	padding: 15px;
+}
+
+Para adicionar um documento css externo, usa-se a tag "<link rel="stylesheet" href="caminho/arquivo.css>".
+
+Quando fazemos um layout de um site, o navegador representa cada elemento HTML como uma caixa retangular, e isso é chamado de box model. Com o CSS é possível alterar a aparência desta caixa.
+
+O box model tem 4 áreas.
+As margens são os espaçamentos entre elementos.
+O padding é o espaço entre o conteúdo e a borda.
+
+	.........................
+	:	margin		:
+	:  ___________________  :
+	: |	  border      | :
+	: | ................. | :
+	: | :	padding     : | :
+	: | :  ___________  : | :
+	: | : |	          | : | :
+	: | : |  content  | : | :
+	: | : |___________| : | :
+	: | ................. | :
+	: |___________________| :
+	:.......................:
