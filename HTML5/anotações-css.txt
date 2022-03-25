@@ -11,8 +11,9 @@ a, p, h1 {
 #O seletor desse exemplo é um seletor de tipo, pois representa um elemento HTML.
 
 --> ID x Classe
+Classes e IDs podem representar qualquer tipo de elemento.
 No CSS, uma classe é precedida por um "." e o id é precedido por um "#".
-Um ID só pode ser usado uma vez na página.
+Um ID só pode ser usado uma vez na página, enquanto a classe não tem restrições.
 
 <header id="header" class="header"></header>
 <header class="header"></header>
@@ -29,8 +30,10 @@ Para adicionar um documento css externo, usa-se a tag "<link rel="stylesheet" hr
 Quando fazemos um layout de um site, o navegador representa cada elemento HTML como uma caixa retangular, e isso é chamado de box model. Com o CSS é possível alterar a aparência desta caixa.
 
 O box model tem 4 áreas.
-As margens são os espaçamentos entre elementos.
-O padding é o espaço entre o conteúdo e a borda.
+>As margens (margin) são os espaçamentos entre elementos;
+>As bordas (border);
+>O padding é o espaço entre o conteúdo e a borda, a diferença para as margens é que declarações de imagem de fundo funcionam nele.
+>O conteúdo (content) é o que o bloco representa, um texto, uma imagem, um vídeo.
 
 	.........................
 	:	margin		:
@@ -45,3 +48,59 @@ O padding é o espaço entre o conteúdo e a borda.
 	: | ................. | :
 	: |___________________| :
 	:.......................:
+
+-->Padding e Margin: Podemos atribuir tamanhos diferentes para cada lado do box.
+>Colocando um valor para as partes superior e inferior e depois para os lados esquerdo e direito.
+	padding: 10px 5px;
+O valor de 10 pixels se refere as partes superior e inferior, e os 5 pixels se referem aos lados esquerdo e direito.
+
+>Dando valores para cada lado do box.
+	padding: 15px 10px 5px 0px;
+Começamos pelo topo, passamos o lado direito, depois para a parte inferior e por último o lado esquerdo, sempre nessa ordem.
+Uma boa dica também é que quando o valor for 0 não precisamos não precisamos colocar a unidade.
+
+>Propriedades específicas para cada lado.
+	paddint-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 0;
+
+Essa opção é mais usada quando temos o mesmo valor para 3 lados, e o quarto precisa ter um valor diferente, então usamos o padding com apenas um valor e uma dessas opções para representar o lado diferente.
+
+-->Background: 3 formas de colocar uma cor de fundo, e ainda existem outras.
+	A primeira é pelo nome da cor em inglês, a segunda é pelo código hexadecimal e a terceira é usando apenas o atalho background.
+
+-->Border: a propriedade border pode ter 3 valores: a largura, a cor e o estilo, mas existem algumas particularidades nisso.
+
+A largura pode ser usada com várias unidades, como px, em e mm. A cor pode ser atribuída pelo nome ou por um código hexadecimal, e o estilo é representada por palavras-chave, algumas delas:
+>solid: mostra uma borda simples e reta;
+>dotted: são bolinhas com um pequeno espaçamento entre elas;
+>dashed: forma uma linha tracejada.
+
+--->Estilizando textos
+
+>font-family: Com o font-family podemos alterar a fonte dos nossos textos, como uma fonte da internet ou uma que esteja instalada no nosso computador.
+
+Web safe fonts: Essas fontes são chamadas assim pois são encontradas em quases todos os sistemas e podem ser usadas sem preocupação.
+
+>font-size: O font-size ajuda a mudar o tamanho do texto.
+
+>font-style: Usamos o font-style para tornar um texto itálico, na maioria das vezes será usado apenas o valor italic para ele, mas se precisar tirar o itálico de um texto você pode usar o valor normal.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
